@@ -1,7 +1,7 @@
 %include "io.mac"
 
 .DATA
-texto       resb      "hola",0
+texto       db      "hola",0
 
 .CODE
 .STARTUP
